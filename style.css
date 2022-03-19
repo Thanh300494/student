@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Dancing+Script:wght@400;500;600;700&family=Kanit:wght@400;500&family=Lato:wght@300;400;700&family=Lobster&family=Nunito:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,500;1,600&family=Praise&family=Roboto+Condensed:wght@300;400&family=Sansita+Swashed:wght@400;500&family=Shizuru&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Sansita Swashed ;
+}
+.container{
+    width: 100%;
+    /* background-color: #ffebcd; */
+    padding-left: 10px;
+    /* margin: 0 auto; */
+}
+.container h1{
+    text-align: center;
+    padding: 20px;
+    color: dodgerblue;
+}
+.mb10px{
+    margin-bottom: 10px;
+}
+label{
+   float: left;
+   width: 100%;
+  font-size: 120%;
+  color: blue;
+}
+input{
+   width: 50%;
+   height: 40px;
+   border-radius: 50px;
+   outline: none;
+   border: 1px solid blue;
+   padding-left: 20px;
+}
+input:focus{
+    border-bottom: 2px solid blue;
+}
+.container button{
+    width: 20%;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 255, 0.37);
+    border: 1px solid blue;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+table button{
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(107, 224, 245);
+    border: none;
+}
+.table{
+    margin-left: 10px;
+    width: 100%;
+    color: deepskyblue;
+}
+.table table,th,td{
+    border: 1px solid rgb(29, 6, 235);
+    border-collapse: collapse;
+}
+.table th{
+    padding: 5px;
+}
+.table td{
+    padding: 5px;
+}
+/* @media only screen and(max-width:390px){
+    .container{
+        width: 100%;
+        margin: 0px;
+        display: none;
+    }
+    .name,.gender,.city,.yearBirth{
+        width: 100%;
+    }
+} */

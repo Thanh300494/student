@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body onload="renderStudents()">
+  <div class="container">
+    <h1>Mời bạn cập nhật thông tin</h1>
+    <div class="name">
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" class="mb10px">
+    </div>
+    <div class="gender">
+      <label for="gender">Gender</label>
+      <input type="text" name="gender" id="gender" class="mb10px">
+    </div>
+    <div class="city">
+      <label for="city">City</label>
+      <input type="text" name="gender" id="city" class="mb10px">
+    </div>
+    <div class="yearBirth">
+      <label for="yearBirth"> Year of birth</label>
+      <input type="text" name="gender" id="yearBirth" class="mb10px">
+    </div>
+    <div class="school">
+      <label for="school"> School </label>
+      <input type="text" name="school" id="school" class="mb10px">
+    </div>
+    <input type="hidden" name="" id="index">
+    <button id="save" onclick="saveStudent()">SAVE</button>
+    <button id="edit" style="display: none;" onclick="changeStudent()">EDIT</button>
+   </div>
+  <div class="table">
+    <table id="table">
+      
+    </table>
+  </div>
+  <script src="/student.js"></script>
+</body>
+
+</html>
